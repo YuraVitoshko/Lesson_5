@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900,italic,600italic&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap");
+@import "null.css";
+
+body{
+	font-family: "Montserrat", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+}
+/* Оболочка - ограниченая ширина и центрирование */
+.wrapper{
+	width: 768px;
+	margin: 0 auto;
+	background-color: rgb(247, 247, 247);
+}
+/* Ширина всех фото на странице и отступ вниз*/
+.article-image{
+	width: 768px;
+	margin: 0 0 10px 0;
+}
+/* Всем заголовкам h3 на странице толщина и размер текста*/
+h3{
+	font-weight: 700;
+	font-size: 22px;
+}
+/* Ссылка на макет (в центре), отступ вниз, жирность текста */
+.maket-link{
+	text-align: center;
+	margin-bottom: 20px;
+	font-weight: 800;
+}
+/* Линия под текстом ссылки, размер, цвет */
+.maketlink {
+	text-decoration: underline;
+	font-size: 24px;
+	color: rgb(255, 0, 0);
+}
+/* Меню в центре, внешний отступ вниз */
+.header-menu{
+	text-align: center;
+	margin-bottom: 30px;
+}
+/* Цвет, стиль и жирность текста ссылок */
+.list-item{
+	color: rgb(7, 164, 255);
+	font-style: italic;
+	font-weight: 600;
+}
+/* Цвет h1, выравнивание по центру, размер и толщина шрифта, тень, отступ вниз */
+.article-h1{
+	font-weight: 900;
+	font-size: 30px;
+	text-align: center;
+	color: rgb(0, 136, 41);
+	text-shadow: 2px 2px 1px rgb(0, 80, 24);
+	margin-bottom: 10px;
+}
+/* Параграф - высота блока, боковой скролл, межбуквенный интервал, межстрочный интервал, отступ вниз */
+.article-text{
+	height: 150px;
+	overflow: auto;
+	letter-spacing: 2px;
+	line-height: 3;
+	margin-bottom: 20px;
+}
+/* =================================1 БЛОК====================================== */
+/* Фоновый цвет, отступ вниз, ограниченая высота блока */
+.block-1{
+	background-color: #000;
+	margin: 0 0 100px 0;
+	height: 655px;
+	overflow: visible; /* значение по умолчанию, отображается все содержание элемента, даже за пределами установленной высоты и ширины.*/
+}
+/* Заголовок (Apple AirPods Max) - жирность и размер шрифта, цвет, отступ вниз */
+.apple-h3{
+	
+	color: rgb(214, 218, 0);
+	margin: 0 0 10px 0;
+	letter-spacing: 1.5px;
+}
+/* Параграф - внутренние боковые отступы, межстрочный интервал, цвет, жирность текста */
+.paragraph-block-1{
+	padding: 0 10px;
+	line-height: 1.5;
+	color: rgb(255, 91, 173);
+	font-weight: 500;
+	overflow: hidden;
+}
+/* =================================2 БЛОК====================================== */
+/* Заголовок (Apple AirPods Pro) - цвет, внешний отступ вниз, внутренний отступ слева, линия над текстом, все буквы заглавные */
+.apple-max-h3{
+	color: rgb(25, 218, 0);
+	margin: 0 0 10px 0;
+	padding: 0 0 0 50px;
+	text-decoration: overline;
+	text-transform: uppercase;
+}
+/* Интервал между словами, цвет и жирность текста, внешний отступ вниз */
+.paragraph-block-2{
+	word-spacing: 15px;
+	color: rgb(90, 0, 150);
+	font-weight: 500;
+	margin: 0 0 10px 0;
+}
+/* =================================3 БЛОК====================================== */
+/* Внешний отступ вниз (Схлопывание) */
+.block-3{
+	margin: 0 0 50px 0;
+}
+/* Заголовок (Beats Powerbeats Pro) - цвет текста, выравнивание по центру, внешний отступ вниз */
+.beats-h3{
+	color: rgb(250, 110, 110);
+	text-align: center;
+	margin: 0 0 10px 0;
+}
+/* Выравнивание текста по левому и правому краям, абзац, цвеет текста, межстрочный интервал, внешний отступ вниз */
+.paragraph-block-3{
+	text-align: justify;
+	text-indent: 20px;
+	color: rgb(110, 110, 110);
+	line-height: 1.5;
+}
+/* =================================4 БЛОК====================================== */
+/* Внешний отступ вверх (Схлопывание) */
+.block-4{
+	margin: 30px 0 0;
+}
+/* Заголовок (Marshall Major IV) - цвет, виравнивание текста по правому краю, внешний отступ вниз */
+.marshall-h3{
+	color: crimson;
+	text-align: right;
+	margin: 0 0 10px 0;
+}
+/* цвет, первая буква каждого слова заглавная, перечеркнутый текст, виравнивание текста по правому краю, внешний отступ вниз */
+.paragraph-block-4{
+	color: chocolate;
+	text-transform: capitalize;
+	text-decoration: line-through;
+	text-align: right;
+	margin: 0 0 15px 0;
+	line-height: 1.2;
+}
+/* =================================5 БЛОК====================================== */
+/* Фиксированая высота блока, добавления колес прокрутки, внешний отступ вниз */
+.block-5{
+	height: 500px;
+	overflow: scroll;
+	margin: 0 0 10px 0;
+}
+/* Заголовок (Samsung Galaxy Buds Pro) - цвет, внешний отступ вниз, абзац*/
+.samsung-h3{
+	color: rgb(82, 1, 119);
+	margin: 0 0 10px 0;
+	text-indent: 50px;
+}
+/* Цвет текста, межстрочный интервал */
+.paragraph-block-5{
+	color: rgb(0, 133, 51);
+	line-height: 1.3;
+	text-align: center;
+}
+/* =================================6 БЛОК====================================== */
+/* Внешний отрицательный отступ слева */
+.block-6{
+	margin: 0 0 0 -50px;
+}
+/* Заголовок (JBL TUNE T125BT) - Цвет */
+.jbl-h3{
+	color: rgb(87, 23, 0);
+	margin: 0 0 10px 0;
+}
+/* Выравнивание текста по правому краю, цвет, межстрочный интервал, курсивный текст, внешний отступ вниз */
+.paragraph-block-6{
+	text-align: right;
+	color: rgb(243, 130, 0);
+	line-height: 1.2;
+	font-style: italic;
+	margin: 0 0 20px 0;
+}
+/* =================================7 БЛОК====================================== */
+/* Заголовок (Xiaomi Mi Air 2S) - цвет, внешний отступ вниз*/
+.xiaomi-h3{
+	color: rgb(0, 225, 255);
+	margin: 0 0 10px 0;
+}
+/* Цвет, межстрочный интервал, внешний отступ вниз, максимальная ширина*/
+.paragraph-block-7{
+	color: rgb(231, 0, 116);
+	line-height: 2;
+	margin: 0 0 20px 0;
+	max-width: 600px;
+}
+/* =================================8 БЛОК====================================== */
+/* Минимальная ширина */
+.block-8{
+	min-width: 800px;
+}
+/* Заголовок (Xiaomi Redmi AirDots 3) - цвет, внешний отступ вниз*/
+.redmi-h3 {
+	color: rgb(87, 69, 47);
+	margin: 0 0 10px 0;
+}
+/* Цвет, выравнивание текста по краям, межстрочный интервал, внешний отступ вниз */
+.paragraph-block-8 {
+	color: chartreuse;
+	text-align: justify;
+	line-height: 1.4;
+	margin: 0 0 15px 0;
+}
+/* =================================9 БЛОК====================================== */
+/* Заголовок (Encok W07 ) - Цвет, внешний отступ вниз*/
+.encok-h3 {
+	color: darkgray;
+	margin: 0 0 17px 0;
+}
+/* Цвет, внешний отступ вниз, межстрочный интервал, максимальная высота */
+.paragraph-block-9 {
+	color: rgb(189, 183, 107);
+	margin: 0 0 20px 0;
+	line-height: 1.2;
+	max-height: 125px;
+}
+/* =================================10 БЛОК====================================== */
+/* Заголовок (Baseus W04) - Цвет, внешний отступ вниз*/
+.baseus-h3 {
+	color: rgb(139, 0, 139);
+	margin: 0 0 10px 0;
+}
+/* Цвет, внешний отступ вниз, межстрочный интервал */
+.paragraph-block-10 {
+	color: rgb(0, 80, 104);
+	line-height: 1.5;
+	margin: 0 0 20px 0;
+}
+/* =================================11 БЛОК====================================== */
+/* Цвет, внешний отступ вниз */
+.end{
+	color: rgb(255, 127, 80);
+	margin: 0 0 10px 0;
+}
+/* Цвет, межстрочный интервал, внешний отступ вниз, (ширина не включает значения отступов, полей и границ), ширина, 
+внутренние отступы слева и справа*/
+.paragraph-end1{
+	color: rgb(0, 97, 97);
+	line-height: 1.4;
+	margin: 0 0 10px 0;
+	box-sizing: content-box;
+	width: 768px;
+	padding: 0 25px;
+}
+/* Размер шрифта, запрет переноса строки, отображение области внутри елемента (остальное содержимое елемента скрыто), внешний отступ вниз */
+.paragraph-end2{
+	font-size: 14.2px;
+	white-space: nowrap;
+	overflow: hidden;
+	line-height: 1.4;
+	margin: 0 0 10px 0;
+}
+.podval{
+	color: darkgrey;
+	text-align: center;
+	font-size: 20px;
+	margin: 0 0 15px 0;
+}
+.text-up{
+	text-align: center;
+	text-decoration: underline;
+	font-size: 26px;
+	color: rgb(0, 110, 255);
+	padding: 0 0 20px 0;
+}
+/* =================================================MAKET==================================================== */
+/* Параматры которые наследуються для всей страницы макета
+Семейство шрифтов, жирность, стиль, размер, максимальная ширина елемента, выравнивание по центру */
+.maket-main{
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	max-width: 810px;
+	margin: 0 auto;
+}
+/* Жирность, размер текста, межстрочный интервал, цвет, внешний отступ вниз */
+.maket-h1{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+	margin: 0 0 40px 0;
+}
+/* Бордер-радиус, внешний отступ вниз */
+.maket-image{
+	border-radius: 4px;
+	margin: 0 0 60px 0;
+}
+/* Жирность и размер текста, межстрочный интервал, цвет, */
+.text-bold{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1E212C;
+}
+/* Цвет текста, межстрочный интервал */
+.text{
+	line-height: 160%;
+	color: #424551;
+}
+/* Внешний отступ вниз */
+.paragraph-bold1{
+	margin: 0 0 24px 0;
+}
+/* Внешний отступ вниз */
+.paragraph1{
+	margin: 0 0 40px 0;
+}
+/* Внешний отступ вниз */
+.paragraph2{
+	margin: 0 0 48px 0;
+}
+/* Внутренний отступ слева, внешний отступ вниз */
+.paragraph-bold2{
+	padding: 0 0 0 58px;
+	margin: 0 0 48px 0;
+}
+/* Внешний отступ вниз */
+.paragraph3{
+	margin: 0 0 24px 0;
+}
+/* Внутренний отступ слева, внешний отступ вниз */
+.maket-list{
+	padding: 0 0 0 32px;
+	margin: 0 0 24px 0;
+}
+/* Внешний отступ вниз */
+.paragraph4{
+	margin: 0 0 60px 0;
+}
